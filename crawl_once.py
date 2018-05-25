@@ -19,7 +19,7 @@ import datetime
 import pandas as pd
 import warnings, tables
 
-DIR = os.getcwd()
+DIR = "/nas/raerne/Work/publibike"
 API_PATH = "https://api.publibike.ch/v1/public"
 
 # disable naturalNameWarning in tables module
